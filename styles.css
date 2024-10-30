@@ -1,14 +1,41 @@
 body {
-    background: #ff859f;
+    background: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000000;
+    color: #ff859f;
 
 }
 
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.about img {
+    width: 400px;
+    height: 550px;
+    border-radius: 25%;
+    border: 2px solid #ff859f;
+}
+
+.about p {
+width:50%;
+margin: auto;
+text-align:center;
+line-height: 125%;
+font-size: larger;
+background-color: #000000;
+color: #ffffff;
+border: 4px solid #36f5af;
+padding: 20px 10px;
+}
+
 h1{
-    color:#36f5af;
+    color:#ff859f;
     text-align: center;
-    font-size: 250%;
+    font-size: 300%;
     font-weight: bold;
     background-color: #000000;
     border: 4px solid #36f5af;
@@ -17,23 +44,26 @@ h1{
 
 .projects { display:flex; flex-wrap:wrap; } 
 .project {
+    color: #ffffff;
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
-    background: #ffb9c8; 
+    background: #000000; 
     border-radius: 25%;
+    border: 4px solid #36f5af;
+    padding: 20px 10px;
 }
 .project img{
     width: 400px;
     height: 250px;
     margin: 10px;
-    border: 4px solid #000000; /* choose a color */
+    border: 4px solid #36f5af; /* choose a color */
     display: block;
     margin: auto;
 }
 a { /* change the appearance of ALL links */
     text-decoration: none;
-    color: #36f5af;
+    color: #ff859f;
 }
 .project p { /* change the appearance of paragraph tags inside .project divs */
     text-align: center;
@@ -41,4 +71,11 @@ a { /* change the appearance of ALL links */
 }
 h3{
     text-align: center;
+    font-size:x-large;
+    color: #ff859f;
+    font-weight: 600;
+    font-style: italic;
+}
+h2{
+    font-size: xx-large;
 }
